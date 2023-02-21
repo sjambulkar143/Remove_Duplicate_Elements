@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Remove_Duplicates
+Bundle-SymbolicName: Remove_Duplicates;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Export-Package: remove_duplicates
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Service-Component: OSGI-INF/cxf.xml
+Import-Package: com.tibco.xml.cxf.common.annotations
+Automatic-Module-Name: Remove.Duplicates

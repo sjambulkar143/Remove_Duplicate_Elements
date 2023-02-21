@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Remove_Duplicate_Elements Module
+Bundle-SymbolicName: Remove_Duplicate_Elements
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: TIBCO Software Inc.
+Require-Bundle: Remove_Duplicates;bundle-version="1.0.0"
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",
+ com.tibco.bw.palette; filter:="(name=bw.generalactivities)",
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.httpconnector)",
+ com.tibco.bw.binding.model; filter:="(name=bw.rest)"
+TIBCO-BW-Version: 6.8.0 V55 2021-11-10
+TIBCO-BW-Edition: bwe
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv

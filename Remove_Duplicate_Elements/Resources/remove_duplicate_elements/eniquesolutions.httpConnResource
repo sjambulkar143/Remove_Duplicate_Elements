@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:httpconnector="http://xsd.tns.tibco.com/bw/models/sharedresource/httpconnector" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_Pa9ckLHQEe2tQ-nYaXRtqQ" name="remove_duplicate_elements.eniquesolutions" type="httpconnector:HttpConnectorConfiguration">
+  <jndi:configuration xsi:type="httpconnector:HttpConnectorConfiguration" xmi:id="_Pa9ckbHQEe2tQ-nYaXRtqQ">
+    <substitutionBindings xmi:id="_Pa9ckrHQEe2tQ-nYaXRtqQ" template="host" propName="/HTTPConnections/Host"/>
+    <substitutionBindings xmi:id="_rcSj4LHREe2xsK3PpzJ-pA" template="port" propName="/HTTPConnections/Port"/>
+  </jndi:configuration>
+</jndi:namedResource>

@@ -1,0 +1,5 @@
+{"records": [{
+    "jsonSchemaLocation": "/Remove_Duplicate_Elements/Service Descriptors/remove_duplicate_elements.RemoveDuplicateElements-eniquesolutions.json",
+    "conversionType": "linked",
+    "xsdSchemaTargetNamespace": "http://www.EniqueSolutions.com/RemoveDuplicateElements"
+}]}

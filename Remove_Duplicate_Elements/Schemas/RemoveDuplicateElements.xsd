@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.EniqueSolutions.com/RemoveDuplicateElements" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.EniqueSolutions.com/RemoveDuplicateElements">
+
+    <element name="RemoveDuplicateReq"
+    	type="tns:RemoveDuplicateReqType">
+    </element>
+    
+    <complexType name="RemoveDuplicateReqType">
+    	<sequence>
+    		<element name="Input" type="string"></element>
+    	</sequence>
+    </complexType>
+    
+    <element name="RemoveDuplicateRes"
+    	type="tns:RemoveDuplicateResType">
+    </element>
+    
+    <complexType name="RemoveDuplicateResType">
+    	<sequence>
+    		<element name="Output" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>

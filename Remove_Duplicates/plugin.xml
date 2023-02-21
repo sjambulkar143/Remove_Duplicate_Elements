@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="RemoveDuplicatesFunctions"
+         name="RemoveDuplicatesFunctions"
+         point="com.tibco.xml.cxf.common.customXPathFunction">
+      <customXPathFunctionGroup
+            id="remove_duplicates"
+            class="remove_duplicates.RemoveDuplicatesFunctions">
+      </customXPathFunctionGroup>
+   </extension>
+
+</plugin>
